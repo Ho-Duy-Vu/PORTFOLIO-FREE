@@ -3,7 +3,7 @@
 **Author:** Hồ Duy Vũ  
 📧 **Email:** duyvu11092004@gmail.com  
 💻 **GitHub:** https://github.com/VUHODEV  
-🔗 **LinkedIn:** https://linkedin.com/in/ho-duy-vu-977235330  
+🔗 **LinkedIn:** https://linkedin.com/in/ho-duy-vu
 
 ---
 
@@ -88,16 +88,12 @@ Template được thiết kế **responsive**, dễ tuỳ biến và phù hợp 
 
 ### 1️⃣ Clone Repository
 
-```bash
+
 git clone <repo-url>
 cd portfolio-template
 2️⃣ Cài Đặt Dependencies
-bash
-Sao chép mã
 npm install
 3️⃣ Chạy Development Server
-bash
-Sao chép mã
 npm run dev
 👉 Truy cập trình duyệt tại:
 http://localhost:5173
@@ -119,14 +115,8 @@ portfolio-template/
 │── README.md
 📦 Quản Lý Dự Án (Projects)
 Danh sách dự án được cấu hình tại:
-
-text
-Sao chép mã
 src/components/Projects.tsx
 Mỗi project bao gồm:
-
-ts
-Sao chép mã
 {
   title: string;
   description: string;
@@ -162,10 +152,6 @@ LinkedIn: https://linkedin.com/in/ho-duy-vu-977235330
 GitHub: https://github.com/VUHODEV
 
 ⭐ Nếu bạn thấy template hữu ích, hãy star repo để ủng hộ nhé!
-
-markdown
-Sao chép mã
-
 ---
 
 ### ✅ README này phù hợp cho:
