@@ -87,8 +87,6 @@ Template được thiết kế **responsive**, dễ tuỳ biến và phù hợp 
 ## ⚡ Cài Đặt & Chạy Local
 
 ### 1️⃣ Clone Repository
-
-
 git clone <repo-url>
 cd portfolio-template
 2️⃣ Cài Đặt Dependencies
@@ -98,19 +96,6 @@ npm run dev
 👉 Truy cập trình duyệt tại:
 http://localhost:5173
 
-📁 Cấu Trúc Thư Mục Chính
-portfolio-template/
-│── public/
-│   ├── images/        # Avatar, dự án, giải thưởng
-│   └── CV.pdf         # CV cá nhân
-│── src/
-│   ├── components/    # Component dùng chung
-│   ├── pages/         # Các trang chính
-│   ├── assets/
-│   └── main.tsx
-│── package.json
-│── vite.config.ts
-│── README.md
 📦 Quản Lý Dự Án (Projects)
 Danh sách dự án được cấu hình tại:
 src/components/Projects.tsx
