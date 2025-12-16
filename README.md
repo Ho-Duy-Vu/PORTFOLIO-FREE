@@ -96,24 +96,6 @@ npm run dev
 👉 Truy cập trình duyệt tại:
 http://localhost:5173
 
-📦 Quản Lý Dự Án (Projects)
-Danh sách dự án được cấu hình tại:
-src/components/Projects.tsx
-Mỗi project bao gồm:
-{
-  title: string;
-  description: string;
-  image: string;
-  techStack: string[];
-  githubUrl: string;
-  liveUrl?: string;
-}
-📌 Lưu ý:
-
-Ảnh demo nên đặt trong public/images/
-
-Hoặc sử dụng link ảnh công khai
-
 🎯 Mục Đích Sử Dụng
 Portfolio cá nhân
 
