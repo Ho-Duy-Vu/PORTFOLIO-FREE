@@ -99,8 +99,6 @@ npm run dev
 http://localhost:5173
 
 📁 Cấu Trúc Thư Mục Chính
-bash
-Sao chép mã
 portfolio-template/
 │── public/
 │   ├── images/        # Avatar, dự án, giải thưởng
