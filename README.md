@@ -1,59 +1,183 @@
-# Portfolio Template
+# 🎨 Portfolio Template – React + TypeScript + Tailwind CSS
 
-Đây là template portfolio React + TypeScript + Tailwind có sẵn các section: giới thiệu, kỹ năng, dự án, giải thưởng/chứng nhận và form liên hệ.
-
-## 🚀 Tính năng nổi bật
-- **Giới thiệu bản thân**: Thông tin cá nhân, mục tiêu nghề nghiệp.
-- **Kỹ năng**: Tổng hợp các kỹ năng lập trình, công nghệ sử dụng.
-- **Dự án nổi bật**: Trình bày các dự án thực tế đã thực hiện, có link demo và mã nguồn.
-- **Giải thưởng & Chứng nhận**: Các thành tích, giải thưởng, chứng nhận học thuật.
-- **Form liên hệ**: Gửi email trực tiếp đến chủ nhân portfolio.
-- **Thiết kế hiện đại, responsive**: Giao diện đẹp, tối ưu cho cả desktop và mobile.
-
-## 🛠️ Công nghệ sử dụng
-- **React.js** + **TypeScript**
-- **Vite** (build tool)
-- **Tailwind CSS** (UI framework)
-- **Framer Motion** (animation)
-  
-- **Lucide React** (icon)
-
-## ⚡ Hướng dẫn cài đặt & chạy local
-1. **Clone repo:**
-   ```bash
-   git clone <repo-url>
-   cd portfolio-template
-   ```
-2. **Cài đặt dependencies:**
-   ```bash
-   npm install
-   ```
-3. **Chạy dev server:**
-   ```bash
-   npm run dev
-   ```
-4. **Truy cập:**
-   Mở trình duyệt và vào địa chỉ [http://localhost:5173](http://localhost:5173)
-
-## 📁 Cấu trúc thư mục chính
-- `src/components/` — Các component React
-- `src/pages/` — Các trang chính
-- `public/images/` — Ảnh nền, avatar, dự án, giải thưởng
-- `public/CV.pdf` — CV cá nhân
-
-## 📦 Dự án (Projects)
-- Cập nhật danh sách dự án tại: `src/components/Projects.tsx`
-- Mỗi item gồm: `title`, `description`, `image`, `techStack`, `githubUrl`, `liveUrl`
-- Ảnh demo nên đặt trong `public/images/` hoặc dùng liên kết công khai
-
-## 📨 Liên hệ hỗ trợ
-Nếu cần hỗ trợ cài đặt/sử dụng template này, vui lòng liên hệ:
-
-- Họ tên: Hồ Duy Vũ
-- Email: [duyvu11092004@gmail.com](mailto:duyvu11092004@gmail.com)
-- LinkedIn: [linkedin.com/in/ho-duy-vu-977235330](https://www.linkedin.com/in/ho-duy-vu-977235330)
-- GitHub: [github.com/VUHODEV](https://github.com/VUHODEV)
+**Author:** Hồ Duy Vũ  
+📧 **Email:** duyvu11092004@gmail.com  
+💻 **GitHub:** https://github.com/VUHODEV  
+🔗 **LinkedIn:** https://linkedin.com/in/ho-duy-vu-977235330  
 
 ---
 
-Template dành cho việc tái sử dụng và tuỳ biến nhanh.
+## 📌 Giới Thiệu
+
+**Portfolio Template** là một template portfolio hiện đại được xây dựng bằng **React + TypeScript + Tailwind CSS**, giúp lập trình viên nhanh chóng tạo website cá nhân chuyên nghiệp để giới thiệu:
+
+- Thông tin bản thân
+- Kỹ năng & công nghệ
+- Dự án thực tế
+- Giải thưởng / chứng nhận
+- Thông tin liên hệ
+
+Template được thiết kế **responsive**, dễ tuỳ biến và phù hợp cho **sinh viên, fresher, junior developer**.
+
+---
+
+## 🚀 Tính Năng Nổi Bật
+
+### 👤 Giới Thiệu Bản Thân
+- Thông tin cá nhân
+- Mục tiêu nghề nghiệp
+- Avatar & mô tả ngắn gọn
+
+---
+
+### 🧠 Kỹ Năng
+- Tổng hợp các kỹ năng lập trình
+- Công nghệ & framework sử dụng
+- Dễ dàng thêm / chỉnh sửa
+
+---
+
+### 💼 Dự Án Nổi Bật
+- Hiển thị các dự án đã thực hiện
+- Mỗi dự án gồm:
+  - Tên dự án
+  - Mô tả
+  - Hình ảnh demo
+  - Công nghệ sử dụng
+  - Link GitHub
+  - Link Demo (Live)
+
+---
+
+### 🏆 Giải Thưởng & Chứng Nhận
+- Trình bày các thành tích học thuật
+- Giải thưởng, chứng chỉ chuyên môn
+- Phù hợp cho CV online
+
+---
+
+### 📩 Form Liên Hệ
+- Gửi email trực tiếp đến chủ portfolio
+- Phù hợp cho nhà tuyển dụng liên hệ nhanh
+
+---
+
+### 📱 Thiết Kế Hiện Đại & Responsive
+- Giao diện tối ưu cho:
+  - Desktop
+  - Tablet
+  - Mobile
+- Animation mượt mà, trải nghiệm tốt
+
+---
+
+## 🛠️ Công Nghệ Sử Dụng
+
+| Công nghệ | Mô tả |
+|--------|------|
+| React.js | Thư viện xây dựng UI |
+| TypeScript | Tăng độ an toàn & maintain |
+| Vite | Build tool nhanh |
+| Tailwind CSS | UI framework |
+| Framer Motion | Animation |
+| Lucide React | Icon |
+
+---
+
+## ⚡ Cài Đặt & Chạy Local
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone <repo-url>
+cd portfolio-template
+2️⃣ Cài Đặt Dependencies
+bash
+Sao chép mã
+npm install
+3️⃣ Chạy Development Server
+bash
+Sao chép mã
+npm run dev
+👉 Truy cập trình duyệt tại:
+http://localhost:5173
+
+📁 Cấu Trúc Thư Mục Chính
+bash
+Sao chép mã
+portfolio-template/
+│── public/
+│   ├── images/        # Avatar, dự án, giải thưởng
+│   └── CV.pdf         # CV cá nhân
+│── src/
+│   ├── components/    # Component dùng chung
+│   ├── pages/         # Các trang chính
+│   ├── assets/
+│   └── main.tsx
+│── package.json
+│── vite.config.ts
+│── README.md
+📦 Quản Lý Dự Án (Projects)
+Danh sách dự án được cấu hình tại:
+
+text
+Sao chép mã
+src/components/Projects.tsx
+Mỗi project bao gồm:
+
+ts
+Sao chép mã
+{
+  title: string;
+  description: string;
+  image: string;
+  techStack: string[];
+  githubUrl: string;
+  liveUrl?: string;
+}
+📌 Lưu ý:
+
+Ảnh demo nên đặt trong public/images/
+
+Hoặc sử dụng link ảnh công khai
+
+🎯 Mục Đích Sử Dụng
+Portfolio cá nhân
+
+CV online
+
+Giới thiệu dự án khi xin thực tập / việc làm
+
+Template tái sử dụng & tuỳ biến nhanh
+
+📨 Liên Hệ Hỗ Trợ
+Nếu bạn cần hỗ trợ cài đặt hoặc tuỳ chỉnh template:
+
+Họ tên: Hồ Duy Vũ
+
+Email: duyvu11092004@gmail.com
+
+LinkedIn: https://linkedin.com/in/ho-duy-vu-977235330
+
+GitHub: https://github.com/VUHODEV
+
+⭐ Nếu bạn thấy template hữu ích, hãy star repo để ủng hộ nhé!
+
+markdown
+Sao chép mã
+
+---
+
+### ✅ README này phù hợp cho:
+- Public **template GitHub**
+- Portfolio cá nhân
+- CV gửi nhà tuyển dụng
+- Chia sẻ cộng đồng React
+
+Nếu bạn muốn mình:
+- 🔹 Viết README **song ngữ (VN–EN)**
+- 🔹 Tối ưu SEO GitHub + Google
+- 🔹 Thêm **badge, screenshot section**
+- 🔹 Chuẩn hoá theo style **Open Source**
+
+👉 nói mình, mình làm tiếp cho bạn 👌
